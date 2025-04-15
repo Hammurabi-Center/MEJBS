@@ -1,0 +1,39 @@
+/* Site Name Styling */
+.pkp_site_name {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.pkp_site_name > a {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.pkp_site_name .is_img img {
+  max-height: none !important; /* Remove height constraint */
+  width: 100% !important; /* Make the image stretch to cover the full width */
+  height: 120% !important; /* Slightly increase the height to stretch upward and downward */
+  object-fit: cover; /* Ensure the image covers the entire container */
+  margin-top: -10px; /* Move the image slightly upward */
+  margin-bottom: -10px; /* Move the image slightly downward */
+}
+
+/* Wrapper Adjustments */
+.pkp_site_name_wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* User Navigation Wrapper */
+.pkp_navigation_user_wrapper {
+  top: 0;
+  right: 0;
+  padding-right: 20px; /* Adds spacing to the right for user navigation */
+}
+
+/* Page Structure */
+.pkp_structure_page {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important; /* Added 'px' for proper margin-bottom */
+  padding-bottom: 20px !important; /* Added 'px' for proper padding-bottom */
+}
